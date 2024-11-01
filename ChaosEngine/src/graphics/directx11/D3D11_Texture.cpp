@@ -1,5 +1,5 @@
 #include "D3D11_Graphics.h"
-#include <DirectXTK/WICTextureLoader.h>
+#include <WICTextureLoader.h>
 
 chaos::D3D11::Texture::Texture(wstring file)
 {
