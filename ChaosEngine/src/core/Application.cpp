@@ -25,9 +25,6 @@ chaos::Application::~Application()
 				this->settings.Display.height,
 				this->settings.Project.name);
 
-		keyboard = window->GetKeyboard();
-		mouse = window->GetMouse();
-
 		window->SetIcon(this->settings.Project.icon);
 		window->SetCaptionColor(this->settings.Display.caption_color);
 		window->SetBoarderColor(this->settings.Display.border_color);

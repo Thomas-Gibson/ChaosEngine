@@ -19,9 +19,6 @@
 
 namespace chaos
 {
-	Keyboard* keyboard = nullptr;
-	Mouse* mouse = nullptr;
-
 	class CHAOS_API Application
 	{
 	

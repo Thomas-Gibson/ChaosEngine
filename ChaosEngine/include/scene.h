@@ -17,7 +17,6 @@ namespace chaos
 	private:
 		Color mClearColor = {};
 		Camera mCamera = {};
-		Keyboard* kbd;
 	protected:
 		Entity entities[10];
 

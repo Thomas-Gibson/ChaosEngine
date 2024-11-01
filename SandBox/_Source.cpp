@@ -30,10 +30,6 @@ public:
 	{
 		ImGui::Begin("Menu");
 
-		if (chaos::keyboard->IsKeyPressed('W'))
-			std::cout << "W" << std::endl;
-
-
 		if (ImGui::CollapsingHeader("Object Rotation"))
 		{
 			ImGui::SliderFloat("Rotation Roll", &entities[0].worldTransform.rotation.z, 0, 360);
